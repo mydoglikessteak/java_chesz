@@ -1,7 +1,7 @@
 //boardgame
 package tabuleiro;
 
-public class position {
+public class Posicao {
 
     private int linha ; // row
 
@@ -9,7 +9,7 @@ public class position {
     private int coluna; // column
 
 
-    public position(int linha, int coluna) {
+    public Posicao(int linha, int coluna) {
         this.linha = linha;
         this.coluna = coluna;
     }
@@ -34,6 +34,7 @@ public class position {
         this.coluna = coluna;
     }
 
+    @Override
     public String toString(){
         return linha + ", " + coluna;
     }
