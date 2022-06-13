@@ -40,5 +40,10 @@ public class Tabuleiro { // board
         peças[posicao.getColuna()]
              [posicao.getColuna()];
     }
+
+    public void primeiraPosiçao(Peça peça,Posicao posicao){
+        peças[posicao.getLinha()][posicao.getColuna()] = peça;
+        peça.position = posicao;
+    }
     
 }
