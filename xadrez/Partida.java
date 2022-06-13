@@ -26,9 +26,9 @@ public class Partida {
     }
 
     private void peçasIniciais(){
-        tabuleiro.primeiraPosiçao(new Torre(tabuleiro, color.WHITE),new Posicao(2, 1));
+        tabuleiro.botarPeça(new Torre(tabuleiro, color.WHITE),new Posicao(2, 1));
 
-        tabuleiro.primeiraPosiçao(new Rei(tabuleiro, color.BLACK),new Posicao(7, 3));
+        tabuleiro.botarPeça(new Rei(tabuleiro, color.BLACK),new Posicao(7, 3));
 
     }
       
